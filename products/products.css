@@ -143,6 +143,7 @@ header {
 
 .productos .container__1 .img {
   background-image: url(/src/Cheese\ table.png);
+  background-size: cover;
   width: 450px;
   height: 360px;
   border-radius: 15px;
@@ -210,6 +211,7 @@ header {
 .productos .container__2 .img {
   background-image: url(/src/medium\ plate.png);
   width: 450px;
+  background-size: cover;
   height: 360px;
   border-radius: 15px;
   transition: all 0.5 ease-in-out;
@@ -274,7 +276,8 @@ header {
 }
 
 .productos .container__3 .img {
-  background-image: url(/src/medium\ plate.png);
+  background-image: url(/src/sondraia\ boards.png);
+  background-size: cover;
   width: 450px;
   height: 360px;
   border-radius: 15px;
@@ -340,7 +343,8 @@ header {
 }
 
 .productos .container__4 .img {
-  background-image: url(/src/medium\ plate.png);
+  background-image: url(/src/large\ boards.png);
+  background-size: cover;
   width: 450px;
   height: 360px;
   border-radius: 15px;
@@ -406,7 +410,8 @@ header {
 }
 
 .productos .container__5 .img {
-  background-image: url(/src/medium\ plate.png);
+  background-image: url(/src/xlarge\ box.png);
+  background-size: cover;
   width: 450px;
   height: 360px;
   border-radius: 15px;
@@ -469,12 +474,287 @@ header {
   .productos .container__1 .img {
     width: 300px;
     height: 260px;
+    background-size: cover;
     transition: all 0.5 ease-in-out;
   }
 
+  .productos .container__1 .text__description {
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height:300px;
+  }
+  
+  .productos .container__1 .text__description h3 {
+    font-size: 30px;
+    color: var(--text-color);
+  }
+  
+  .productos .container__1 .text__description p {
+    font-size:18px ;
+  }
+  .productos .container__1 .text__description .lista {
+    display: flex;
+    gap: 55px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  .productos .container__1 .text__description button {
+    font-weight: var(--font-bold);
+    color: var(--secondary-color);
+    background: var(--background-color);
+    padding: 10px 55px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    margin-top:10px ;
+    transition: all 0.3s ease-in-out;
+  }
+  .productos .container__1 .text__description button:hover {
+    background: var(--text-color);
+    color: var(--primary-color);
+    font-weight: var(--font-bold);
+    transform: scale(1.1);
+  }
+
+  .productos .container__2 {
+    width: 600px;
+  height: 300px;
+  transition: all 0.5 ease-in-out;
+  }
+
+  .productos .container__2 .img {
+    width: 300px;
+    height: 260px;
+    background-size: cover;
+    transition: all 0.5 ease-in-out;
+  }
+
+  .productos .container__2 .text__description {
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height:300px;
+  }
+  
+  .productos .container__2 .text__description h3 {
+    font-size: 30px;
+    color: var(--text-color);
+  }
+  
+  .productos .container__2 .text__description p {
+    font-size:18px ;
+  }
+  .productos .container__2 .text__description .lista {
+    display: flex;
+    gap: 55px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  .productos .container__2 .text__description button {
+    font-weight: var(--font-bold);
+    color: var(--secondary-color);
+    background: var(--background-color);
+    padding: 10px 55px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    margin-top:10px ;
+    transition: all 0.3s ease-in-out;
+  }
+  .productos .container__2 .text__description button:hover {
+    background: var(--text-color);
+    color: var(--primary-color);
+    font-weight: var(--font-bold);
+    transform: scale(1.1);
+  }
+
+  .productos .container__3 {
+    width: 600px;
+  height: 300px;
+  transition: all 0.5 ease-in-out;
+  }
+
+  .productos .container__3 .img {
+    width: 300px;
+    height: 260px;
+    background-size: cover;
+    transition: all 0.5 ease-in-out;
+  }
+
+  .productos .container__3 .text__description {
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height:300px;
+  }
+  
+  .productos .container__3 .text__description h3 {
+    font-size: 30px;
+    color: var(--text-color);
+  }
+  
+  .productos .container__3 .text__description p {
+    font-size:18px ;
+  }
+  .productos .container__3 .text__description .lista {
+    display: flex;
+    gap: 55px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  .productos .container__3 .text__description button {
+    font-weight: var(--font-bold);
+    color: var(--secondary-color);
+    background: var(--background-color);
+    padding: 10px 55px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    margin-top:10px ;
+    transition: all 0.3s ease-in-out;
+  }
+  .productos .container__3 .text__description button:hover {
+    background: var(--text-color);
+    color: var(--primary-color);
+    font-weight: var(--font-bold);
+    transform: scale(1.1);
+  }
+
+  .productos .container__4 {
+    width: 600px;
+  height: 300px;
+  transition: all 0.5 ease-in-out;
+  }
+
+  .productos .container__4 .img {
+    width: 300px;
+    height: 260px;
+    background-size: cover;
+    transition: all 0.5 ease-in-out;
+  }
+
+  .productos .container__4 .text__description {
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height:300px;
+  }
+  
+  .productos .container__4 .text__description h3 {
+    font-size: 30px;
+    color: var(--text-color);
+  }
+  
+  .productos .container__4 .text__description p {
+    font-size:18px ;
+  }
+  .productos .container__4 .text__description .lista {
+    display: flex;
+    gap: 55px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  .productos .container__4 .text__description button {
+    font-weight: var(--font-bold);
+    color: var(--secondary-color);
+    background: var(--background-color);
+    padding: 10px 55px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    margin-top:10px ;
+    transition: all 0.3s ease-in-out;
+  }
+  .productos .container__4 .text__description button:hover {
+    background: var(--text-color);
+    color: var(--primary-color);
+    font-weight: var(--font-bold);
+    transform: scale(1.1);
+  }
+
+  .productos .container__5 {
+    width: 600px;
+  height: 300px;
+  transition: all 0.5 ease-in-out;
+  }
+
+  .productos .container__5 .img {
+    width: 300px;
+    height: 260px;
+    background-size: cover;
+    transition: all 0.5 ease-in-out;
+  }
+
+  .productos .container__5 .text__description {
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height:300px;
+  }
+  
+  .productos .container__5 .text__description h3 {
+    font-size: 30px;
+    color: var(--text-color);
+  }
+  
+  .productos .container__5 .text__description p {
+    font-size:18px ;
+  }
+  .productos .container__5 .text__description .lista {
+    display: flex;
+    gap: 55px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  .productos .container__5 .text__description button {
+    font-weight: var(--font-bold);
+    color: var(--secondary-color);
+    background: var(--background-color);
+    padding: 10px 55px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    margin-top:10px ;
+    transition: all 0.3s ease-in-out;
+  }
+  .productos .container__5 .text__description button:hover {
+    background: var(--text-color);
+    color: var(--primary-color);
+    font-weight: var(--font-bold);
+    transform: scale(1.1);
+  }
 }
-
-
 
 @media (max-width: 768px) {
 
