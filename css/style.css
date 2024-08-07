@@ -383,7 +383,7 @@ p {
 }
 
 .accordion__icon {
-  background-color: var(--color-primary);
+  background-color: var(--text-color);
   width: 2.2rem;
   height: 2.2rem;
   display: flex;
