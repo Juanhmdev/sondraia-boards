@@ -509,7 +509,7 @@ header {
 }
 
 .productos__miniboards .container__1 .img {
-  background-image: url(/src/Cheese\ table.png);
+  background-image: url(/src/mini-board.png);
   background-size: cover;
   width: 450px;
   height: 360px;
@@ -576,7 +576,7 @@ header {
 }
 
 .productos__miniboards .container__2 .img {
-  background-image: url(/src/medium\ plate.png);
+  background-image: url(/src/pigni-box.png);
   width: 450px;
   background-size: cover;
   height: 360px;
@@ -629,8 +629,546 @@ header {
 }
 /*FINAL DE CONTAINER 2*/
 
+/*INICIO DE CONTAINER 3*/
+.productos__miniboards .container__3 {
+  border: 1px solid #000000;
+  border-radius: 25px;
+  background-size: cover;
+  padding: 20px 20px 20px 20px;
+  width: 900px;
+  height: 400px;
+  transition: all 0.5s;
+  display: flex;
+  gap: 15px;
+}
+
+.productos__miniboards .container__3 .img {
+  background-image: url(/src/mini-board.png);
+  background-size: cover;
+  width: 450px;
+  height: 360px;
+  border-radius: 15px;
+  transition: all 0.5 ease-in-out;
+}
+
+.productos__miniboards .container__3 .text__description {
+  display: flex;
+  justify-content: start;
+  margin-top: 30px;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  height:360px;
+}
+
+.productos__miniboards .container__3 .text__description h3 {
+  font-size: 35px;
+  color: var(--text-color);
+}
+
+.productos__miniboards .container__3 .text__description p {
+  font-size:20px ;
+}
+.productos__miniboards .container__3 .text__description .lista {
+  display: flex;
+  gap: 55px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.productos__miniboards .container__3 .text__description button {
+  font-weight: var(--font-bold);
+  color: var(--secondary-color);
+  background: var(--background-color);
+  padding: 12px 65px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
+  margin-top:25px ;
+  transition: all 0.3s;
+}
+.productos__miniboards .container__3 .text__description button:hover {
+  background: var(--text-color);
+  color: var(--primary-color);
+  font-weight: var(--font-bold);
+  transform: scale(1.1);
+}
+/*FINAL DE CONTAINER 3*/
+
+/*INICIO DE CONTAINER 4*/
+.productos__miniboards .container__4 {
+  border: 1px solid #000000;
+  border-radius: 25px;
+  background-size: cover;
+  padding: 20px 20px 20px 20px;
+  width: 900px;
+  height: 400px;
+  transition: all 0.5s;
+  display: flex;
+  gap: 15px;
+}
+
+.productos__miniboards .container__4 .img {
+  background-image: url(/src/small-table.png);
+  width: 450px;
+  background-size: cover;
+  height: 360px;
+  border-radius: 15px;
+  transition: all 0.5 ease-in-out;
+}
+
+.productos__miniboards .container__4 .text__description {
+  display: flex;
+  justify-content: start;
+  margin-top: 30px;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  height:360px;
+}
+
+.productos__miniboards .container__4 .text__description h3 {
+  font-size: 35px;
+  color: var(--text-color);
+}
+
+.productos__miniboards .container__4 .text__description p {
+  font-size:20px ;
+}
+.productos__miniboards .container__4 .text__description .lista {
+  display: flex;
+  gap: 55px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.productos__miniboards .container__4 .text__description button {
+  font-weight: var(--font-bold);
+  color: var(--secondary-color);
+  background: var(--background-color);
+  padding: 12px 65px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
+  margin-top:25px ;
+  transition: all 0.3s;
+}
+.productos__miniboards .container__4 .text__description button:hover {
+  background: var(--text-color);
+  color: var(--primary-color);
+  font-weight: var(--font-bold);
+  transform: scale(1.1);
+}
+/*FINAL DE CONTAINER 2*/
+
 
 /*FIN DE MINIBOARDS*/
+
+
+/*INICIO DE SANGRIAS*/
+
+.portada__miniboards {
+  width: auto;
+  height: 500px;
+  background-image: url(/src/sangria-portada.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portada__miniboards h1 {
+  font-size: 70px;
+    color: var(--primary-color); 
+    transition: all 0.5s;
+}
+
+.productos__sangrias {
+  width: auto;
+  height: auto;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
+  gap: 40px;
+}
+
+/*INICIO DE CONTAINER 1*/
+.productos__sangrias .container__1 {
+  border: 1px solid #000000;
+  border-radius: 25px;
+  background-size: cover;
+  padding: 20px 20px 20px 20px;
+  width: 900px;
+  height: 400px;
+  transition: all 0.5s;
+  display: flex;
+  gap: 15px;
+}
+
+.productos__sangrias .container__1 .img {
+  background-image: url(/src/sangria\ pitcher.png);
+  background-size: cover;
+  width: 450px;
+  height: 360px;
+  border-radius: 15px;
+  transition: all 0.5 ease-in-out;
+}
+
+.productos__sangrias .container__1 .text__description {
+  display: flex;
+  justify-content: start;
+  margin-top: 30px;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  height:360px;
+}
+
+.productos__sangrias .container__1 .text__description h3 {
+  font-size: 35px;
+  color: var(--text-color);
+}
+
+.productos__sangrias .container__1 .text__description p {
+  font-size:20px ;
+}
+.productos__sangrias .container__1 .text__description .lista {
+  display: flex;
+  gap: 55px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.productos__sangrias .container__1 .text__description button {
+  font-weight: var(--font-bold);
+  color: var(--secondary-color);
+  background: var(--background-color);
+  padding: 12px 65px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
+  margin-top:25px ;
+  transition: all 0.3s;
+}
+.productos__sangrias .container__1 .text__description button:hover {
+  background: var(--text-color);
+  color: var(--primary-color);
+  font-weight: var(--font-bold);
+  transform: scale(1.1);
+}
+/*FINAL DE CONTAINER 1*/
+
+/*FIN DE SANGRIAS*/
+
+/*INICIO DE CATERING*/
+
+.portada__catering {
+  width: auto;
+  height: 500px;
+  background-image: url(/src/portada-catering.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portada__catering h1 {
+  font-size: 70px;
+    color: var(--primary-color); 
+    transition: all 0.5s;
+}
+
+.productos__catering {
+  width: auto;
+  height: auto;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
+  gap: 40px;
+}
+
+/*INICIO DE CONTAINER 1*/
+.productos__catering .container__1 {
+  border: 1px solid #000000;
+  border-radius: 25px;
+  background-size: cover;
+  padding: 20px 20px 20px 20px;
+  width: 900px;
+  height: 400px;
+  transition: all 0.5s;
+  display: flex;
+  gap: 15px;
+}
+
+.productos__catering .container__1 .img {
+  background-image: url(/src/capelo.png);
+  background-size: cover;
+  width: 450px;
+  height: 360px;
+  border-radius: 15px;
+  transition: all 0.5 ease-in-out;
+}
+
+.productos__catering .container__1 .text__description {
+  display: flex;
+  justify-content: start;
+  margin-top: 30px;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  height:360px;
+}
+
+.productos__catering .container__1 .text__description h3 {
+  font-size: 35px;
+  color: var(--text-color);
+}
+
+.productos__catering .container__1 .text__description p {
+  font-size:20px ;
+}
+.productos__catering .container__1 .text__description .lista {
+  display: flex;
+  gap: 55px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.productos__catering .container__1 .text__description button {
+  font-weight: var(--font-bold);
+  color: var(--secondary-color);
+  background: var(--background-color);
+  padding: 12px 65px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
+  margin-top:25px ;
+  transition: all 0.3s;
+}
+.productos__catering .container__1 .text__description button:hover {
+  background: var(--text-color);
+  color: var(--primary-color);
+  font-weight: var(--font-bold);
+  transform: scale(1.1);
+}
+/*FINAL DE CONTAINER 1*/
+
+/*INICIO DE CONTAINER 2*/
+.productos__catering .container__2 {
+  border: 1px solid #000000;
+  border-radius: 25px;
+  background-size: cover;
+  padding: 20px 20px 20px 20px;
+  width: 900px;
+  height: 400px;
+  transition: all 0.5s;
+  display: flex;
+  gap: 15px;
+}
+
+.productos__catering .container__2 .img {
+  background-image: url(/src/cup.png);
+  width: 450px;
+  background-size: cover;
+  height: 360px;
+  border-radius: 15px;
+  transition: all 0.5 ease-in-out;
+}
+
+.productos__catering .container__2 .text__description {
+  display: flex;
+  justify-content: start;
+  margin-top: 30px;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  height:360px;
+}
+
+.productos__catering .container__2 .text__description h3 {
+  font-size: 35px;
+  color: var(--text-color);
+}
+
+.productos__catering .container__2 .text__description p {
+  font-size:20px ;
+}
+.productos__catering .container__2 .text__description .lista {
+  display: flex;
+  gap: 55px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.productos__catering .container__2 .text__description button {
+  font-weight: var(--font-bold);
+  color: var(--secondary-color);
+  background: var(--background-color);
+  padding: 12px 65px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
+  margin-top:25px ;
+  transition: all 0.3s;
+}
+.productos__catering .container__2 .text__description button:hover {
+  background: var(--text-color);
+  color: var(--primary-color);
+  font-weight: var(--font-bold);
+  transform: scale(1.1);
+}
+/*FINAL DE CONTAINER 2*/
+
+/*INICIO DE CONTAINER 3*/
+.productos__catering .container__3 {
+  border: 1px solid #000000;
+  border-radius: 25px;
+  background-size: cover;
+  padding: 20px 20px 20px 20px;
+  width: 900px;
+  height: 400px;
+  transition: all 0.5s;
+  display: flex;
+  gap: 15px;
+}
+
+.productos__catering .container__3 .img {
+  background-image: url(/src/cone.png);
+  background-size: cover;
+  width: 450px;
+  height: 360px;
+  border-radius: 15px;
+  transition: all 0.5 ease-in-out;
+}
+
+.productos__catering .container__3 .text__description {
+  display: flex;
+  justify-content: start;
+  margin-top: 30px;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  height:360px;
+}
+
+.productos__catering .container__3 .text__description h3 {
+  font-size: 35px;
+  color: var(--text-color);
+}
+
+.productos__catering .container__3 .text__description p {
+  font-size:20px ;
+}
+.productos__catering .container__3 .text__description .lista {
+  display: flex;
+  gap: 55px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.productos__catering .container__3 .text__description button {
+  font-weight: var(--font-bold);
+  color: var(--secondary-color);
+  background: var(--background-color);
+  padding: 12px 65px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
+  margin-top:25px ;
+  transition: all 0.3s;
+}
+.productos__catering .container__3 .text__description button:hover {
+  background: var(--text-color);
+  color: var(--primary-color);
+  font-weight: var(--font-bold);
+  transform: scale(1.1);
+}
+/*FINAL DE CONTAINER 3*/
+
+/*INICIO DE CONTAINER 4*/
+.productos__catering .container__4 {
+  border: 1px solid #000000;
+  border-radius: 25px;
+  background-size: cover;
+  padding: 20px 20px 20px 20px;
+  width: 900px;
+  height: 400px;
+  transition: all 0.5s;
+  display: flex;
+  gap: 15px;
+}
+
+.productos__catering .container__4 .img {
+  background-image: url(/src/cheese-table.png);
+  width: 450px;
+  background-size: cover;
+  height: 360px;
+  border-radius: 15px;
+  transition: all 0.5 ease-in-out;
+}
+
+.productos__catering .container__4 .text__description {
+  display: flex;
+  justify-content: start;
+  margin-top: 30px;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  height:360px;
+}
+
+.productos__catering .container__4 .text__description h3 {
+  font-size: 35px;
+  color: var(--text-color);
+}
+
+.productos__catering .container__4 .text__description p {
+  font-size:20px ;
+}
+.productos__catering .container__4 .text__description .lista {
+  display: flex;
+  gap: 55px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.productos__catering .container__4 .text__description button {
+  font-weight: var(--font-bold);
+  color: var(--secondary-color);
+  background: var(--background-color);
+  padding: 12px 65px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
+  margin-top:25px ;
+  transition: all 0.3s;
+}
+.productos__catering .container__4 .text__description button:hover {
+  background: var(--text-color);
+  color: var(--primary-color);
+  font-weight: var(--font-bold);
+  transform: scale(1.1);
+}
+/*FINAL DE CONTAINER 2*/
+
+/*FIN DE CATERING*/
 
 
 @media (max-width: 900px) {
@@ -1039,8 +1577,656 @@ header {
     transform: scale(1.1);
   }
 
+  .productos__miniboards .container__3 {
+    width: 600px;
+  height: 300px;
+  transition: all 0.5 ease-in-out;
+  }
+  .productos__miniboards .container__3 .img {
+    width: 300px;
+    height: 260px;
+    background-size: cover;
+    transition: all 0.5 ease-in-out;
+  }
+
+  .productos__miniboards .container__3 .text__description {
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height:300px;
+  }
+  
+  .productos__miniboards .container__3 .text__description h3 {
+    font-size: 30px;
+    color: var(--text-color);
+  }
+  
+  .productos__miniboards .container__3 .text__description p {
+    font-size:18px ;
+  }
+  .productos__miniboards .container__3 .text__description .lista {
+    display: flex;
+    gap: 55px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  .productos__miniboards .container__3 .text__description button {
+    font-weight: var(--font-bold);
+    color: var(--secondary-color);
+    background: var(--background-color);
+    padding: 10px 55px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    margin-top:10px ;
+    transition: all 0.3s ease-in-out;
+  }
+  .productos__miniboards .container__3 .text__description button:hover {
+    background: var(--text-color);
+    color: var(--primary-color);
+    font-weight: var(--font-bold);
+    transform: scale(1.1);
+  }
+
+  .productos__miniboards .container__4 {
+    width: 600px;
+  height: 300px;
+  transition: all 0.5 ease-in-out;
+  }
+
+  .productos__miniboards .container__4 .img {
+    width: 300px;
+    height: 260px;
+    background-size: cover;
+    transition: all 0.5 ease-in-out;
+  }
+
+  .productos__miniboards .container__4 .text__description {
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height:300px;
+  }
+  
+  .productos__miniboards .container__4 .text__description h3 {
+    font-size: 30px;
+    color: var(--text-color);
+  }
+  
+  .productos__miniboards .container__4 .text__description p {
+    font-size:18px ;
+  }
+  .productos__miniboards .container__4 .text__description .lista {
+    display: flex;
+    gap: 55px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  .productos__miniboards .container__4 .text__description button {
+    font-weight: var(--font-bold);
+    color: var(--secondary-color);
+    background: var(--background-color);
+    padding: 10px 55px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    margin-top:10px ;
+    transition: all 0.3s ease-in-out;
+  }
+  .productos__miniboards .container__4 .text__description button:hover {
+    background: var(--text-color);
+    color: var(--primary-color);
+    font-weight: var(--font-bold);
+    transform: scale(1.1);
+  }
+
   /*FIN DE MINIBOARDS*/
 
+  /*INICIO DE CATERING*/
+  .productos__catering .container__1 {
+    width: 600px;
+  height: 300px;
+  transition: all 0.5 ease-in-out;
+  }
+  .productos__catering .container__1 .img {
+    width: 300px;
+    height: 260px;
+    background-size: cover;
+    transition: all 0.5 ease-in-out;
+  }
+
+  .productos__catering .container__1 .text__description {
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height:300px;
+  }
+  
+  .productos__catering .container__1 .text__description h3 {
+    font-size: 30px;
+    color: var(--text-color);
+  }
+  
+  .productos__catering .container__1 .text__description p {
+    font-size:18px ;
+  }
+  .productos__catering .container__1 .text__description .lista {
+    display: flex;
+    gap: 55px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  .productos__catering .container__1 .text__description button {
+    font-weight: var(--font-bold);
+    color: var(--secondary-color);
+    background: var(--background-color);
+    padding: 10px 55px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    margin-top:10px ;
+    transition: all 0.3s ease-in-out;
+  }
+  .productos__catering .container__1 .text__description button:hover {
+    background: var(--text-color);
+    color: var(--primary-color);
+    font-weight: var(--font-bold);
+    transform: scale(1.1);
+  }
+
+  .productos__catering .container__2 {
+    width: 600px;
+  height: 300px;
+  transition: all 0.5 ease-in-out;
+  }
+
+  .productos__catering .container__2 .img {
+    width: 300px;
+    height: 260px;
+    background-size: cover;
+    transition: all 0.5 ease-in-out;
+  }
+
+  .productos__catering .container__2 .text__description {
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height:300px;
+  }
+  
+  .productos__catering .container__2 .text__description h3 {
+    font-size: 30px;
+    color: var(--text-color);
+  }
+  
+  .productos__catering .container__2 .text__description p {
+    font-size:18px ;
+  }
+  .productos__catering .container__2 .text__description .lista {
+    display: flex;
+    gap: 55px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  .productos__catering .container__2 .text__description button {
+    font-weight: var(--font-bold);
+    color: var(--secondary-color);
+    background: var(--background-color);
+    padding: 10px 55px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    margin-top:10px ;
+    transition: all 0.3s ease-in-out;
+  }
+  .productos__catering .container__2 .text__description button:hover {
+    background: var(--text-color);
+    color: var(--primary-color);
+    font-weight: var(--font-bold);
+    transform: scale(1.1);
+  }
+
+  .productos__catering .container__3 {
+    width: 600px;
+  height: 300px;
+  transition: all 0.5 ease-in-out;
+  }
+  .productos__catering .container__3 .img {
+    width: 300px;
+    height: 260px;
+    background-size: cover;
+    transition: all 0.5 ease-in-out;
+  }
+
+  .productos__catering .container__3 .text__description {
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height:300px;
+  }
+  
+  .productos__catering .container__3 .text__description h3 {
+    font-size: 30px;
+    color: var(--text-color);
+  }
+  
+  .productos__catering .container__3 .text__description p {
+    font-size:18px ;
+  }
+  .productos__catering .container__3 .text__description .lista {
+    display: flex;
+    gap: 55px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  .productos__catering .container__3 .text__description button {
+    font-weight: var(--font-bold);
+    color: var(--secondary-color);
+    background: var(--background-color);
+    padding: 10px 55px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    margin-top:10px ;
+    transition: all 0.3s ease-in-out;
+  }
+  .productos__catering .container__3 .text__description button:hover {
+    background: var(--text-color);
+    color: var(--primary-color);
+    font-weight: var(--font-bold);
+    transform: scale(1.1);
+  }
+
+  .productos__catering .container__4 {
+    width: 600px;
+  height: 300px;
+  transition: all 0.5 ease-in-out;
+  }
+
+  .productos__catering .container__4 .img {
+    width: 300px;
+    height: 260px;
+    background-size: cover;
+    transition: all 0.5 ease-in-out;
+  }
+
+  .productos__catering .container__4 .text__description {
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height:300px;
+  }
+  
+  .productos__catering .container__4 .text__description h3 {
+    font-size: 30px;
+    color: var(--text-color);
+  }
+  
+  .productos__catering .container__4 .text__description p {
+    font-size:18px ;
+  }
+  .productos__catering .container__4 .text__description .lista {
+    display: flex;
+    gap: 55px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  .productos__catering .container__4 .text__description button {
+    font-weight: var(--font-bold);
+    color: var(--secondary-color);
+    background: var(--background-color);
+    padding: 10px 55px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    margin-top:10px ;
+    transition: all 0.3s ease-in-out;
+  }
+  .productos__catering .container__4 .text__description button:hover {
+    background: var(--text-color);
+    color: var(--primary-color);
+    font-weight: var(--font-bold);
+    transform: scale(1.1);
+  }
+
+  /*FIN DE CATERING*/
+
+  /*INICIO DE SANGRIAS*/
+
+  .productos__sangrias .container__1 {
+    width: 600px;
+  height: 300px;
+  transition: all 0.5 ease-in-out;
+  }
+  .productos__sangrias .container__1 .img {
+    width: 300px;
+    height: 260px;
+    background-size: cover;
+    transition: all 0.5 ease-in-out;
+  }
+
+  .productos__sangrias .container__1 .text__description {
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height:300px;
+  }
+  
+  .productos__sangrias .container__1 .text__description h3 {
+    font-size: 30px;
+    color: var(--text-color);
+  }
+  
+  .productos__sangrias .container__1 .text__description p {
+    font-size:18px ;
+  }
+  .productos__sangrias .container__1 .text__description .lista {
+    display: flex;
+    gap: 55px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  .productos__sangrias .container__1 .text__description button {
+    font-weight: var(--font-bold);
+    color: var(--secondary-color);
+    background: var(--background-color);
+    padding: 10px 55px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    margin-top:0px ;
+    transition: all 0.3s ease-in-out;
+  }
+  .productos__sangrias .container__1 .text__description button:hover {
+    background: var(--text-color);
+    color: var(--primary-color);
+    font-weight: var(--font-bold);
+    transform: scale(1.1);
+  }
+
+  /*FIN DE SANGRIAS*/
+}
+
+@media (max-width: 600px) {
+
+  /*INICIO DE MINIBOARDS*/
+  .productos__miniboards .container__1 {
+    width: 380px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  transition: all 0.5 ease-in-out;
+  }
+  .productos__miniboards .container__1 .img {
+    width: 300px;
+    height: 350px;
+    background-size: cover;
+    transition: all 0.5 ease-in-out;
+  }
+
+  .productos__miniboards .container__1 .text__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height:300px;
+  }
+  
+  .productos__miniboards .container__1 .text__description h3 {
+    font-size: 30px;
+    color: var(--text-color);
+  }
+  
+  .productos__miniboards .container__1 .text__description p {
+    font-size:18px ;
+  }
+  .productos__miniboards .container__1 .text__description .lista {
+    display: flex;
+    gap: 55px;
+    margin-left: 10px;
+  }
+  
+  .productos__miniboards .container__1 .text__description button {
+    font-weight: var(--font-bold);
+    color: var(--secondary-color);
+    background: var(--background-color);
+    padding: 10px 55px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    margin-top:10px ;
+    transition: all 0.3s ease-in-out;
+  }
+  .productos__miniboards .container__1 .text__description button:hover {
+    background: var(--text-color);
+    color: var(--primary-color);
+    font-weight: var(--font-bold);
+    transform: scale(1.1);
+  }
+
+  .productos__miniboards .container__2 {
+    width: 380px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  transition: all 0.5 ease-in-out;
+  }
+
+  .productos__miniboards .container__2 .img {
+    width: 300px;
+    height: 350px;
+    background-size: cover;
+    transition: all 0.5 ease-in-out;
+  }
+
+  .productos__miniboards .container__2 .text__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height:300px;
+  }
+  
+  .productos__miniboards .container__2 .text__description h3 {
+    font-size: 30px;
+    color: var(--text-color);
+  }
+  
+  .productos__miniboards .container__2 .text__description p {
+    font-size:18px ;
+  }
+  .productos__miniboards .container__2 .text__description .lista {
+    display: flex;
+    gap: 55px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  .productos__miniboards .container__2 .text__description button {
+    font-weight: var(--font-bold);
+    color: var(--secondary-color);
+    background: var(--background-color);
+    padding: 10px 55px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    margin-top:10px ;
+    transition: all 0.3s ease-in-out;
+  }
+  .productos__miniboards .container__2 .text__description button:hover {
+    background: var(--text-color);
+    color: var(--primary-color);
+    font-weight: var(--font-bold);
+    transform: scale(1.1);
+  }
+
+  .productos__miniboards .container__3 {
+    width: 380px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  transition: all 0.5 ease-in-out;
+  }
+  .productos__miniboards .container__3 .img {
+    width: 300px;
+    height: 350px;
+    background-size: cover;
+    transition: all 0.5 ease-in-out;
+  }
+
+  .productos__miniboards .container__3 .text__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height:300px;
+  }
+  
+  .productos__miniboards .container__3 .text__description h3 {
+    font-size: 30px;
+    color: var(--text-color);
+  }
+  
+  .productos__miniboards .container__3 .text__description p {
+    font-size:18px ;
+  }
+  .productos__miniboards .container__3 .text__description .lista {
+    display: flex;
+    gap: 55px;
+    margin-left: 10px;
+  }
+  
+  .productos__miniboards .container__3 .text__description button {
+    font-weight: var(--font-bold);
+    color: var(--secondary-color);
+    background: var(--background-color);
+    padding: 10px 55px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    margin-top:10px ;
+    transition: all 0.3s ease-in-out;
+  }
+  .productos__miniboards .container__3 .text__description button:hover {
+    background: var(--text-color);
+    color: var(--primary-color);
+    font-weight: var(--font-bold);
+    transform: scale(1.1);
+  }
+
+  .productos__miniboards .container__4 {
+    width: 380px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  transition: all 0.5 ease-in-out;
+  }
+
+  .productos__miniboards .container__4 .img {
+    width: 300px;
+    height: 350px;
+    background-size: cover;
+    transition: all 0.5 ease-in-out;
+  }
+
+  .productos__miniboards .container__4 .text__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height:300px;
+  }
+  
+  .productos__miniboards .container__4 .text__description h3 {
+    font-size: 30px;
+    color: var(--text-color);
+  }
+  
+  .productos__miniboards .container__4 .text__description p {
+    font-size:18px ;
+  }
+  .productos__miniboards .container__4 .text__description .lista {
+    display: flex;
+    gap: 55px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  .productos__miniboards .container__4 .text__description button {
+    font-weight: var(--font-bold);
+    color: var(--secondary-color);
+    background: var(--background-color);
+    padding: 10px 55px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    margin-top:10px ;
+    transition: all 0.3s ease-in-out;
+  }
+  .productos__miniboards .container__4 .text__description button:hover {
+    background: var(--text-color);
+    color: var(--primary-color);
+    font-weight: var(--font-bold);
+    transform: scale(1.1);
+  }
+
+  /*FIN DE MINIBOARDS*/
 }
 
 @media (max-width: 768px) {
