@@ -1993,7 +1993,7 @@ header {
 
   /*INICIO DE MINIBOARDS*/
   .productos__miniboards .container__1 {
-    width: 380px;
+    width: 350px;
     height: 600px;
     display: flex;
     flex-direction: column;
@@ -2050,7 +2050,7 @@ header {
   }
 
   .productos__miniboards .container__2 {
-    width: 380px;
+    width: 350px;
     height: 600px;
     display: flex;
     flex-direction: column;
@@ -2110,7 +2110,7 @@ header {
   }
 
   .productos__miniboards .container__3 {
-    width: 380px;
+    width: 350px;
     height: 600px;
     display: flex;
     flex-direction: column;
@@ -2167,7 +2167,7 @@ header {
   }
 
   .productos__miniboards .container__4 {
-    width: 380px;
+    width: 350px;
     height: 600px;
     display: flex;
     flex-direction: column;
