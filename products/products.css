@@ -779,7 +779,7 @@ header {
   align-items: center;
 }
 
-.portada__miniboards h1 {
+.portada__sangrias h1 {
   font-size: 70px;
     color: var(--primary-color); 
     transition: all 0.5s;
@@ -2227,6 +2227,597 @@ header {
   }
 
   /*FIN DE MINIBOARDS*/
+
+   /*INICIO DE CHESSE BOARDS*/
+   .productos .container__1 {
+    width: 350px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  transition: all 0.5 ease-in-out;
+  }
+  .productos .container__1 .img {
+    width: 300px;
+    height: 350px;
+    background-size: cover;
+    transition: all 0.5 ease-in-out;
+  }
+
+  .productos .container__1 .text__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height:300px;
+  }
+  
+  .productos .container__1 .text__description h3 {
+    font-size: 30px;
+    color: var(--text-color);
+  }
+  
+  .productos .container__1 .text__description p {
+    font-size:18px ;
+  }
+  .productos .container__1 .text__description .lista {
+    display: flex;
+    gap: 55px;
+    margin-left: 10px;
+  }
+  
+  .productos .container__1 .text__description button {
+    font-weight: var(--font-bold);
+    color: var(--secondary-color);
+    background: var(--background-color);
+    padding: 10px 55px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    margin-top:10px ;
+    transition: all 0.3s ease-in-out;
+  }
+  .productos .container__1 .text__description button:hover {
+    background: var(--text-color);
+    color: var(--primary-color);
+    font-weight: var(--font-bold);
+    transform: scale(1.1);
+  }
+
+  .productos .container__2 {
+    width: 350px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  transition: all 0.5 ease-in-out;
+  }
+
+  .productos .container__2 .img {
+    width: 300px;
+    height: 350px;
+    background-size: cover;
+    transition: all 0.5 ease-in-out;
+  }
+
+  .productos .container__2 .text__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height:300px;
+  }
+  
+  .productos .container__2 .text__description h3 {
+    font-size: 30px;
+    color: var(--text-color);
+  }
+  
+  .productos .container__2 .text__description p {
+    font-size:18px ;
+  }
+  .productos .container__2 .text__description .lista {
+    display: flex;
+    gap: 55px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  .productos .container__2 .text__description button {
+    font-weight: var(--font-bold);
+    color: var(--secondary-color);
+    background: var(--background-color);
+    padding: 10px 55px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    margin-top:10px ;
+    transition: all 0.3s ease-in-out;
+  }
+  .productos .container__2 .text__description button:hover {
+    background: var(--text-color);
+    color: var(--primary-color);
+    font-weight: var(--font-bold);
+    transform: scale(1.1);
+  }
+
+  .productos .container__3 {
+    width: 350px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  transition: all 0.5 ease-in-out;
+  }
+  .productos .container__3 .img {
+    width: 300px;
+    height: 350px;
+    background-size: cover;
+    transition: all 0.5 ease-in-out;
+  }
+
+  .productos .container__3 .text__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height:300px;
+  }
+  
+  .productos .container__3 .text__description h3 {
+    font-size: 30px;
+    color: var(--text-color);
+  }
+  
+  .productos .container__3 .text__description p {
+    font-size:18px ;
+  }
+  .productos .container__3 .text__description .lista {
+    display: flex;
+    gap: 55px;
+    margin-left: 10px;
+  }
+  
+  .productos .container__3 .text__description button {
+    font-weight: var(--font-bold);
+    color: var(--secondary-color);
+    background: var(--background-color);
+    padding: 10px 55px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    margin-top:10px ;
+    transition: all 0.3s ease-in-out;
+  }
+  .productos .container__3 .text__description button:hover {
+    background: var(--text-color);
+    color: var(--primary-color);
+    font-weight: var(--font-bold);
+    transform: scale(1.1);
+  }
+
+  .productos .container__4 {
+    width: 350px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  transition: all 0.5 ease-in-out;
+  }
+
+  .productos .container__4 .img {
+    width: 300px;
+    height: 350px;
+    background-size: cover;
+    transition: all 0.5 ease-in-out;
+  }
+
+  .productos .container__4 .text__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height:300px;
+  }
+  
+  .productos .container__4 .text__description h3 {
+    font-size: 30px;
+    color: var(--text-color);
+  }
+  
+  .productos .container__4 .text__description p {
+    font-size:18px ;
+  }
+  .productos .container__4 .text__description .lista {
+    display: flex;
+    gap: 55px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  .productos .container__4 .text__description button {
+    font-weight: var(--font-bold);
+    color: var(--secondary-color);
+    background: var(--background-color);
+    padding: 10px 55px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    margin-top:10px ;
+    transition: all 0.3s ease-in-out;
+  }
+  .productos .container__4 .text__description button:hover {
+    background: var(--text-color);
+    color: var(--primary-color);
+    font-weight: var(--font-bold);
+    transform: scale(1.1);
+  }
+
+  .productos .container__5 {
+    width: 350px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  transition: all 0.5 ease-in-out;
+  }
+  .productos .container__5 .img {
+    width: 300px;
+    height: 350px;
+    background-size: cover;
+    transition: all 0.5 ease-in-out;
+  }
+
+  .productos .container__5 .text__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height:300px;
+  }
+  
+  .productos .container__5 .text__description h3 {
+    font-size: 30px;
+    color: var(--text-color);
+  }
+  
+  .productos .container__5 .text__description p {
+    font-size:18px ;
+  }
+  .productos .container__5 .text__description .lista {
+    display: flex;
+    gap: 55px;
+    margin-left: 10px;
+  }
+  
+  .productos .container__5 .text__description button {
+    font-weight: var(--font-bold);
+    color: var(--secondary-color);
+    background: var(--background-color);
+    padding: 10px 55px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    margin-top:10px ;
+    transition: all 0.3s ease-in-out;
+  }
+  .productos .container__5 .text__description button:hover {
+    background: var(--text-color);
+    color: var(--primary-color);
+    font-weight: var(--font-bold);
+    transform: scale(1.1);
+  }
+
+  /*FIN DE CHEESE BOARDS*/
+
+  /*INICIO DE MINIBOARDS*/
+  .productos__sangrias .container__1 {
+    width: 350px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  transition: all 0.5 ease-in-out;
+  }
+  .productos__sangrias .container__1 .img {
+    width: 300px;
+    height: 350px;
+    background-size: cover;
+    transition: all 0.5 ease-in-out;
+  }
+
+  .productos__sangrias .container__1 .text__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height:300px;
+  }
+  
+  .productos__sangrias .container__1 .text__description h3 {
+    font-size: 30px;
+    color: var(--text-color);
+  }
+  
+  .productos__sangrias .container__1 .text__description p {
+    font-size:18px ;
+  }
+  .productos__sangrias .container__1 .text__description .lista {
+    display: flex;
+    gap: 55px;
+    margin-left: 10px;
+  }
+  
+  .productos__sangrias .container__1 .text__description button {
+    font-weight: var(--font-bold);
+    color: var(--secondary-color);
+    background: var(--background-color);
+    padding: 10px 55px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    margin-top:10px ;
+    transition: all 0.3s ease-in-out;
+  }
+  .productos__sangrias .container__1 .text__description button:hover {
+    background: var(--text-color);
+    color: var(--primary-color);
+    font-weight: var(--font-bold);
+    transform: scale(1.1);
+  }
+
+  /*FIN DE SANGRIAS*/
+
+  /*INICIO DE CATERING*/
+  .productos__catering .container__1 {
+    width: 350px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  transition: all 0.5 ease-in-out;
+  }
+  .productos__catering .container__1 .img {
+    width: 300px;
+    height: 350px;
+    background-size: cover;
+    transition: all 0.5 ease-in-out;
+  }
+
+  .productos__catering .container__1 .text__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height:300px;
+  }
+  
+  .productos__catering .container__1 .text__description h3 {
+    font-size: 30px;
+    color: var(--text-color);
+  }
+  
+  .productos__catering .container__1 .text__description p {
+    font-size:18px ;
+  }
+  .productos__catering .container__1 .text__description .lista {
+    display: flex;
+    gap: 55px;
+    margin-left: 10px;
+  }
+  
+  .productos__catering .container__1 .text__description button {
+    font-weight: var(--font-bold);
+    color: var(--secondary-color);
+    background: var(--background-color);
+    padding: 10px 55px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    margin-top:10px ;
+    transition: all 0.3s ease-in-out;
+  }
+  .productos__catering .container__1 .text__description button:hover {
+    background: var(--text-color);
+    color: var(--primary-color);
+    font-weight: var(--font-bold);
+    transform: scale(1.1);
+  }
+
+  .productos__catering .container__2 {
+    width: 350px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  transition: all 0.5 ease-in-out;
+  }
+
+  .productos__catering .container__2 .img {
+    width: 300px;
+    height: 350px;
+    background-size: cover;
+    transition: all 0.5 ease-in-out;
+  }
+
+  .productos__catering .container__2 .text__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height:300px;
+  }
+  
+  .productos__catering .container__2 .text__description h3 {
+    font-size: 30px;
+    color: var(--text-color);
+  }
+  
+  .productos__catering .container__2 .text__description p {
+    font-size:18px ;
+  }
+  .productos__catering .container__2 .text__description .lista {
+    display: flex;
+    gap: 55px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  .productos__catering .container__2 .text__description button {
+    font-weight: var(--font-bold);
+    color: var(--secondary-color);
+    background: var(--background-color);
+    padding: 10px 55px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    margin-top:10px ;
+    transition: all 0.3s ease-in-out;
+  }
+  .productos__catering .container__2 .text__description button:hover {
+    background: var(--text-color);
+    color: var(--primary-color);
+    font-weight: var(--font-bold);
+    transform: scale(1.1);
+  }
+
+  .productos__catering .container__3 {
+    width: 350px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  transition: all 0.5 ease-in-out;
+  }
+  .productos__catering .container__3 .img {
+    width: 300px;
+    height: 350px;
+    background-size: cover;
+    transition: all 0.5 ease-in-out;
+  }
+
+  .productos__catering .container__3 .text__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height:300px;
+  }
+  
+  .productos__catering .container__3 .text__description h3 {
+    font-size: 30px;
+    color: var(--text-color);
+  }
+  
+  .productos__catering .container__3 .text__description p {
+    font-size:18px ;
+  }
+  .productos__catering .container__3 .text__description .lista {
+    display: flex;
+    gap: 55px;
+    margin-left: 10px;
+  }
+  
+  .productos__catering .container__3 .text__description button {
+    font-weight: var(--font-bold);
+    color: var(--secondary-color);
+    background: var(--background-color);
+    padding: 10px 55px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    margin-top:10px ;
+    transition: all 0.3s ease-in-out;
+  }
+  .productos__catering .container__3 .text__description button:hover {
+    background: var(--text-color);
+    color: var(--primary-color);
+    font-weight: var(--font-bold);
+    transform: scale(1.1);
+  }
+
+  .productos__catering .container__4 {
+    width: 350px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  transition: all 0.5 ease-in-out;
+  }
+
+  .productos__catering .container__4 .img {
+    width: 300px;
+    height: 350px;
+    background-size: cover;
+    transition: all 0.5 ease-in-out;
+  }
+
+  .productos__catering .container__4 .text__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height:300px;
+  }
+  
+  .productos__catering .container__4 .text__description h3 {
+    font-size: 30px;
+    color: var(--text-color);
+  }
+  
+  .productos__catering .container__4 .text__description p {
+    font-size:18px ;
+  }
+  .productos__catering .container__4 .text__description .lista {
+    display: flex;
+    gap: 55px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  .productos__catering .container__4 .text__description button {
+    font-weight: var(--font-bold);
+    color: var(--secondary-color);
+    background: var(--background-color);
+    padding: 10px 55px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    margin-top:10px ;
+    transition: all 0.3s ease-in-out;
+  }
+  .productos__catering .container__4 .text__description button:hover {
+    background: var(--text-color);
+    color: var(--primary-color);
+    font-weight: var(--font-bold);
+    transform: scale(1.1);
+  }
+
+  /*FIN DE CATERING*/
 }
 
 @media (max-width: 768px) {
