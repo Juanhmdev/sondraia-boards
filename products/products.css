@@ -468,7 +468,7 @@ header {
 .portada__miniboards {
   width: auto;
   height: 500px;
-  background-image: url(/src/Chesse\ portada.png);
+  background-image: url(/src/portada_miniboards.png);
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -769,7 +769,7 @@ header {
 
 /*INICIO DE SANGRIAS*/
 
-.portada__miniboards {
+.portada__sangrias {
   width: auto;
   height: 500px;
   background-image: url(/src/sangria-portada.png);
