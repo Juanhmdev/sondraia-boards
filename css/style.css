@@ -860,9 +860,16 @@ ul {
 }
 @media (max-width: 460px) {
   .titulo__categorias {
-    margin-top: 240px;
+    margin-top: 260px;
+    line-height: 50px;
     margin-left: 10px;
     margin-right: 10px;
+  }
+  .accordion__title {
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 50px;
+    margin-top: 20px;
   }
   .categories {
     flex-direction: column;
