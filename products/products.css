@@ -1767,8 +1767,8 @@ header {
 
   .productos__catering .container__2 .text__description {
     display: flex;
-    justify-content: start;
-    margin-top: 10px;
+    justify-content: flex-start;
+    margin-top: 0px;
     align-items: center;
     flex-direction: column;
     width: 400px;
@@ -1882,8 +1882,8 @@ header {
 
   .productos__catering .container__4 .text__description {
     display: flex;
-    justify-content: start;
-    margin-top: 10px;
+    justify-content: flex-start;
+    margin-top: 0px;
     align-items: center;
     flex-direction: column;
     width: 400px;
@@ -2067,7 +2067,8 @@ header {
 
   .productos__miniboards .container__2 .text__description {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-top: 0px;
     align-items: center;
     flex-direction: column;
     width: 400px;
@@ -2184,7 +2185,8 @@ header {
 
   .productos__miniboards .container__4 .text__description {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-top: 0px;
     align-items: center;
     flex-direction: column;
     width: 400px;
@@ -2304,7 +2306,8 @@ header {
 
   .productos .container__2 .text__description {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-top: 0px;
     align-items: center;
     flex-direction: column;
     width: 400px;
@@ -2421,7 +2424,8 @@ header {
 
   .productos .container__4 .text__description {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-top: 0px;
     align-items: center;
     flex-direction: column;
     width: 400px;
@@ -2540,7 +2544,8 @@ header {
 
   .productos__sangrias .container__1 .text__description {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-top: 0px;
     align-items: center;
     flex-direction: column;
     width: 400px;
@@ -2658,7 +2663,8 @@ header {
 
   .productos__catering .container__2 .text__description {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-top: 0px;
     align-items: center;
     flex-direction: column;
     width: 400px;
@@ -2775,7 +2781,8 @@ header {
 
   .productos__catering .container__4 .text__description {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-top: 0px;
     align-items: center;
     flex-direction: column;
     width: 400px;
