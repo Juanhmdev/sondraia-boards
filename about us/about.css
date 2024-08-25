@@ -328,6 +328,13 @@ header {
         display: block;
         transition: all 2.3s;
     }
+    
+    .footer-cta .row {
+      width: auto;
+      margin: 20px 0 10px 0;
+      display: flex;
+      flex-direction: column;
+    }
 
 }
 
@@ -342,9 +349,12 @@ header {
     display: flex;
     justify-content: space-around;
   }
+
   .footer-cta .row {
     width: auto;
-    margin: 10px 0 10px 0;
+    margin: 20px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
   }
   
   .single-cta {
@@ -373,8 +383,8 @@ header {
   }
   
   .cta-text span {
-    color: #757575;
-    font-size: 15px;
+    color: #0099ff;
+    font-size: 20px;
   }
   
   .footer-content {
