@@ -467,6 +467,13 @@ ul {
   font-size: 20px;
 }
 
+.phone-number {
+  color: inherit;          /* Mantiene el color del texto como el de su contenedor */
+  text-decoration: none;   /* Elimina el subrayado */
+  font-size: inherit;      /* Mantiene el tamaño de fuente original */
+  pointer-events: none;    /* Desactiva la capacidad de clic (opcional) */
+}
+
 .footer-content {
   position: relative;
   z-index: 2;
