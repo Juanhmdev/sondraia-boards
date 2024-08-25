@@ -643,7 +643,7 @@ header {
 }
 
 .productos__miniboards .container__3 .img {
-  background-image: url(/src/mini-board.png);
+  background-image: url(/src/mini-box.png);
   background-size: cover;
   width: 450px;
   height: 360px;
