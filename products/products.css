@@ -3000,6 +3000,11 @@ header {
     color: #0099ff;
     font-size: 20px;
   }
+
+  .cta-text p {
+    color: #0099ff;
+    font-size: 20px;
+  }
   
   .footer-content {
     position: relative;
